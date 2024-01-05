@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "forecast-app"
+version = "0.1.0"
+description = ""
+authors = ["Alberto <alberto.llanosco@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "4.1.7"
+djangorestframework = "^3.14.0"
+drf-yasg = "^1.21.7"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
